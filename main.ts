@@ -7,6 +7,7 @@ radio.onReceivedNumber(function (receivedNumber) {
             . . . . .
             . . . . .
             `)
+        music.playTone(440, music.beat(BeatFraction.Half))
     } else {
         basic.showLeds(`
             . . . . .
@@ -15,6 +16,7 @@ radio.onReceivedNumber(function (receivedNumber) {
             . . . . .
             . . . . .
             `)
+        music.playTone(440, music.beat(BeatFraction.Whole))
     }
     basic.clearScreen()
 })
