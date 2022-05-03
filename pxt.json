@@ -1,5 +1,5 @@
 {
-    "name": "Microbit",
+    "name": "Microbit that can record the steps you walk and send morse code",
     "version": "0.1.0",
     "description": "",
     "dependencies": {
