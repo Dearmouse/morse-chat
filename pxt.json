@@ -1,5 +1,5 @@
 {
-    "name": "Microbit that can record the steps you walk and send morse code",
+    "name": "Microbit that can record the steps that you walk and send morse code",
     "version": "1.0.0",
     "description": "",
     "dependencies": {
@@ -10,7 +10,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "pyprj"
 }
